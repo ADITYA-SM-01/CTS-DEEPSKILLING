@@ -1,0 +1,18 @@
+Linear Search:
+
+| Case    | Complexity |
+| ------- | ---------- |
+| Best    | O(1)       |
+| Average | O(n)       |
+| Worst   | O(n)       |
+
+Binary Search:
+
+| Case    | Complexity |
+| ------- | ---------- |
+| Best    | O(1)       |
+| Average | O(log n)   |
+| Worst   | O(log n)   |
+
+Conclusion:
+Binary Search is best when the input is sorted or monotonic
