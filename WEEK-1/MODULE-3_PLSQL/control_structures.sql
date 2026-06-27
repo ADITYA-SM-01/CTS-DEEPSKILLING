@@ -33,6 +33,7 @@ INSERT INTO Loans VALUES (1005, 105, 9.00, DATE '2026-07-30');
 COMMIT;
 
 select * from customers;
+
 select * from Loans;
 
 -- scenario 1

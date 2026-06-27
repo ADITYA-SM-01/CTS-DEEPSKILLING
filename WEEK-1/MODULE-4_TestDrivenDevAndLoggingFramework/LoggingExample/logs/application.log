@@ -1,0 +1,12 @@
+2026-06-27 15:11:59.760 [main] ERROR com.library.LoggingExample - This is an error message
+2026-06-27 15:11:59.761 [main] WARN  com.library.LoggingExample - This is a warning message
+2026-06-27 15:12:54.027 [main] ERROR com.library.LoggingExample - This is an error message
+2026-06-27 15:12:54.028 [main] WARN  com.library.LoggingExample - This is a warning message
+2026-06-27 15:13:14.287 [main] ERROR com.library.LoggingExample - This is an error message
+2026-06-27 15:13:14.288 [main] WARN  com.library.LoggingExample - This is a warning message
+2026-06-27 15:13:58.542 [main] ERROR com.library.LoggingExample - This is an error message
+2026-06-27 15:13:58.554 [main] WARN  com.library.LoggingExample - This is a warning message
+2026-06-27 15:21:13.428 [main] ERROR com.library.LoggingExample - This is an error message
+2026-06-27 15:21:13.429 [main] WARN  com.library.LoggingExample - This is a warning message
+2026-06-27 15:25:55.605 [main] ERROR com.library.LoggingExample - This is an error message
+2026-06-27 15:25:55.607 [main] WARN  com.library.LoggingExample - This is a warning message
