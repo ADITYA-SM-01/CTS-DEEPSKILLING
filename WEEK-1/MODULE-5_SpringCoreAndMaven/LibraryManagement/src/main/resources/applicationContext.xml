@@ -7,7 +7,7 @@
 <bean id = "bookrepository" class="com.library.repository.BookRepository">
 
 </bean>
-    <bean id = "bookservice" class="com.library.service.BookService">
-        <constructor-arg ref="bookrepository"/>
+    <bean id = "bookservice" class="com.library.service.BookService" autowire="constructor">
+<!--        <property name="bookRepository" ref="bookrepository"/>-->
     </bean>
 </beans>

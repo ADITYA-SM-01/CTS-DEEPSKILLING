@@ -10,3 +10,5 @@
 2026-06-27 15:21:13.429 [main] WARN  com.library.LoggingExample - This is a warning message
 2026-06-27 15:25:55.605 [main] ERROR com.library.LoggingExample - This is an error message
 2026-06-27 15:25:55.607 [main] WARN  com.library.LoggingExample - This is a warning message
+2026-06-27 15:57:43.859 [main] ERROR com.library.LoggingExample - This is an error message
+2026-06-27 15:57:43.864 [main] WARN  com.library.LoggingExample - This is a warning message

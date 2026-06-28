@@ -12,8 +12,8 @@ public class App
 {
     public static void main( String[] args )
     {
-        ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
-        BookService bookService = (BookService) context.getBean("bookservice");
+        var context = new ClassPathXmlApplicationContext("applicationContext.xml");
+        BookService bookService =  context.getBean("bookservice",BookService.class);
         bookService.getService();
     }
 }
