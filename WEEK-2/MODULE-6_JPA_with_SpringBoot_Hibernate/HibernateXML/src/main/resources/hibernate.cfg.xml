@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<!DOCTYPE hibernate-configuration PUBLIC-->
+<!--        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"-->
+<!--        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">-->
+
+<hibernate-configuration>
+    <session-factory>
+        <!-- 1. Database Connection Settings -->
+        <property name="hiberate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/hibernatelearn?useSSL=false&amp;serverTimezone=UTC</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.connection.password">Root@Backend$001</property>
+
+        <!-- 2. Database Dialect for SQL Generation -->
+<!--        <property name="dialect">org.hibernate.dialect.MySQL8Dialect</property>-->
+
+        <!-- 3. Connection Pool Settings (Built-in or C3P0/Hikari) -->
+        <property name="connection.pool_size">10</property>
+
+        <!-- 4. Debugging and Logging Properties -->
+        <property name="show_sql">true</property>
+<!--        <property name="format_sql">true</property>-->
+<!--        <property name="use_sql_comments">true</property>-->
+
+        <!-- 5. Automatic Schema Generation Strategy -->
+        <property name="hbm2ddl.auto">update</property>
+
+        <!-- 6. Registered Persistent Entities -->
+        <mapping class="com.library.model.Student"/>
+
+
+    </session-factory>
+</hibernate-configuration>
